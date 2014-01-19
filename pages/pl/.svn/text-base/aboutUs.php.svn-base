@@ -1,0 +1,35 @@
+﻿<div id="sub-header">
+	<h2>O nas</h2>
+    <p>Firma DORAN została zarejestrowana w listopadzie 2007r. przez właściciela <strong>Andrzeja Rogulskiego</strong>. Jest ona ukierunkowana na szeroko rozumiane doradztwo w zakresie <strong>technologii przetwórstwa biomasy</strong> na cele energetyczne, a w szczególności jej granulacji. </p>
+    <p class="second" >Zostało tu wykorzystane <strong>dziesięcioletnie doświadczenie</strong> właściciela firmy w przetwórstwie biomasy. <br><br></p>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+	<div id="main-content">
+    	
+		<p>W trakcie tego okresu zrealizowano <strong>szereg inwestycji</strong> związanych z <strong>pelletyzacją</strong> odpadów poleśnych (zrębki, trociny), oraz <strong>granulacją</strong> odpadów porolnych (słoma, siano, trzcina). 
+		W ramach tych zadań <strong>opracowano technologię granulacji</strong> słomy z pominięciem suszarni. Powstały układ pozwala na przerabianie biomasy porolnej o średniej wilgotności do 35%, 
+		co w naszych warunkach atmosferycznych wystarczy na przerobienie praktycznie <strong>całej zebranej masy</strong>. </p>
+		
+        <p>Taki proces granulacji <strong>obniża koszty</strong> bezpośrednie produkcji <strong>o kilkanaście procent</strong>, a samą inwestycję o kilkaset tysięcy złotych (w zależności od wydajności linii). 
+		Ponadto <strong>wieloletnie doświadczenie</strong> w zakresie upraw roślin energetycznych, a w szczególności <strong>miskanta olbrzymiego</strong> rozszerza naszą ofertę dla potencjalnych inwestorów, 
+		o budowanie rynku zaopatrzenia w surowiec.  </p> 
+		
+    </div>
+    <!-- //#main-content -->
+    <div id="sidebar">
+    	<h4>Informacje</h4>
+        <p>Mauris eu mauris magna, nec tincidunt diam. Vivamus eget lacus lorem, in volutpat lorem. Vivamus luctus facilisis sapien ac mattis.</p>
+        <h4>Skontaktuj się z nami!</h4>
+        <p>Vestibulum quis turpis eget libero rutrum cursus. Aliquam erat volutpat. Nulla sit amet orci et massa iaculis ultrices.</p>
+        <p><strong>Osoba do kontaktu:</strong> Jan kowalski<br /><strong>Tel.:</strong> (+48) 052 388 00 20</strong><br /><strong>Email:</strong> <a href="#">info@doran.info.pl</a></p>
+        <h4></h4>
+        <ul>
+        	<li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- //#sidebar -->
+</div>
+<!-- //#content -->

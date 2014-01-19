@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+
+.marker {
+	width: 300px;
+	overflow: hidden;
+}
+
+#sub-header h1.marker_header, h1.marker_header {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	//font-style: italic;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+#sub-header .marker_body, .marker_body {
+	font-size: 12px;
+	text-align: justify;
+}

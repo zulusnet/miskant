@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+/* jQuery lightBox plugin - Gallery style */
+#gallery {
+	text-decoration: none;
+}
+
+#gallery ul {
+	list-style: none;
+}
+
+#gallery ul li {
+	display: block;
+	margin: 10px 0;
+	text-align: center;
+}
+
+#gallery ul img {
+	border: 5px solid;
+	border-color: rgba(105,139,34,0.5);
+	border-radius: 5px;
+	border-width: 5px 5px 20px;
+}
+
+#gallery a {
+	text-decoration: none;
+}
+
+#gallery ul a:hover img {
+	//border: 5px solid #84B224;
+	border-color: rgba(105,139,34,1);
+	border-width: 5px 5px 20px;
+	color: #fff;
+}
+
+#gallery ul a:hover {
+	//color: #84B224;
+	color: rgba(105,139,34,1);
+}
+
+#small-gallery {
+	//width:100%;
+}
+
+#small-gallery ul {
+	list-style: none;
+}
+
+#small-gallery ul li {
+
+}
+
+#small-gallery ul li img {
+	border: 5px solid;
+	border-color: rgba(105,139,34,0.5);
+	border-radius: 5px;
+	border-width: 5px 5px 10px;
+}
+
+#small-gallery ul li a {
+	//margin-right: 1px;
+	text-decoration: none;
+}
+
+#small-gallery ul a:hover img {
+	border-color: rgba(105,139,34,1);
+}
+
+#small-gallery ul a:hover {
+	color: rgba(105,139,34,1);
+}

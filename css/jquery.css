@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+/* jQuery lightBox plugin - Gallery style */
+	#sm_gallery {
+		background-color: #fff;
+		text-decoration: none;
+	}
+	#sm_gallery ul { list-style: none; }
+	#sm_gallery ul li { display: inline; text-align: center; }
+	#sm_gallery ul img {
+		border: 5px solid #CCCCCC;
+		border-width: 5px 5px 20px;
+	}
+	#sm_gallery a {
+			text-decoration: none;
+	}
+	#sm_gallery ul a:hover img {
+		border: 5px solid #84B224;
+		border-width: 5px 5px 20px;
+		color: #fff;
+	}
+	#sm_gallery ul a:hover { color: #84B224; }

@@ -1,0 +1,47 @@
+﻿<div id="sub-header">
+	<h2>Wymagania klimatyczne</h2>
+    <p>
+	Miskant olbrzymi <strong>nie ma</strong> szczególnie <strong>wysokich wymagań agrotechnicznych</strong> (gleba, nawożenie, uprawa). 
+	Plantacje z powodzeniem <strong>można zakładać na glebach IV i V klasy</strong>, a nawet klasy VI, pod warunkiem, 
+	że stanowisko nie będzie stale przesuszone. Natomiast prowadzenie uprawy na <strong>glebach klas wyższych</strong> 
+	sktutkuje możliwością uzyskania <strong>wysokich i stabilnych plonów</strong> w poszczególnych latach uprawy. 
+	</p>
+    <p class="second" >
+	Miskantus jest rośliną ciepłolubną (szlaku metabolicznego C4), oznacza to szczególnie efektywną formę fotosyntezy,
+	która zapewnia <strong>duży przyrost biomasy</strong> z powierzchni asymilowanej, a wiąże się z koniecznością dobrego nasłonecznienia.
+	</p>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+	<div id="main-content">
+    	
+		<p>
+		Młode rośliny w pierwszym roku wegetacji są szczególnie wrażliwe na przymrozki, 
+		dlatego w niektórych przypadkach może istnieć konieczność ochrony roślin (np. poprzez <strong>ściółkowanie</strong>). 
+		</p>
+		<p>
+		W późniejszym okresie miskant dzięki silnie rozwijającemu się systemowi korzeniowemu <strong>jest odporny na 
+		okresowe posuchy</strong> oraz zacieniające sąsiedztwo drzew. Z tego względu istnieje również możliwość wykorzystania 
+		tego gatunku jako <strong>rośliny przeciwerozyjnej</strong>.
+		</p>
+		
+		
+    </div>
+    <!-- //#main-content -->
+    <div id="sidebar">
+    	<h4>Informacje</h4>
+        <p>Mauris eu mauris magna, nec tincidunt diam. Vivamus eget lacus lorem, in volutpat lorem. Vivamus luctus facilisis sapien ac mattis.</p>
+        <h4>Skontaktuj się z nami!</h4>
+        <p>Vestibulum quis turpis eget libero rutrum cursus. Aliquam erat volutpat. Nulla sit amet orci et massa iaculis ultrices.</p>
+        <p><strong>Osoba do kontaktu:</strong> Jan kowalski<br /><strong>Tel.:</strong> (+48) 052 388 00 20</strong><br /><strong>Email:</strong> <a href="#">info@doran.info.pl</a></p>
+        <h4></h4>
+        <ul>
+        	<li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- //#sidebar -->
+</div>
+<!-- //#content -->
+

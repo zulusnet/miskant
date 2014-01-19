@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+
+
+div#content-images-cell div#slide-holder {
+z-index : 50;
+width : 400px;
+height : 300px;
+float: right;
+border-left: 1px solid;
+border-top: 1px solid;
+border-bottom: 1px solid;
+border-color: rgba(204,204,204,0.5);
+//border-top-left-radius: 5px;
+//border-bottom-left-radius: 5px;
+}
+div#content-images-cell div#slide-holder div#slide-runner {
+width : 400px;
+height : 300px;
+overflow : hidden;
+position : absolute;
+}
+div#content-images-cell div#slide-holder img {
+margin : 0;
+display : none;
+position : absolute;
+}
+div#content-images-cell div#slide-holder div#slide-controls {
+left : 0;
+top : 10px;
+width : 400px;
+height : 50px;
+display : none;
+position : absolute;
+//background : url(../img/layout/slide-bg.png) 0 0;
+background-color: rgba(204,204,204,0.75);
+}
+div#content-images-cell div#slide-holder div#slide-controls p.text {
+float : right;
+color : black;
+display : inline;
+font-size : 10px;
+line-height : 15px;
+margin : 10px 20px 0 0;
+text-transform : uppercase;
+}
+div#content-images-cell div#slide-holder div#slide-nav-wrap {
+height: 34px;
+width: 400px;
+background-color: rgba(204,204,204,0.50);
+bottom:10px;
+position: absolute;
+}
+
+div#content-images-cell div#slide-holder div#slide-nav-wrap p#slide-nav {
+float: right;
+height: 24px;
+margin: 5px 10px;
+}
+
+div#content-images-cell div#slide-holder div#slide-nav-wrap p#slide-nav a {
+color: #fff;
+float : left;
+width : 24px;
+height : 24px;
+display : inline;
+font-size : 11px;
+margin : 0 5px 0 0;
+line-height : 24px;
+font-weight : bold;
+text-align : center;
+text-decoration : none;
+background-position : 0 0;
+background-repeat : no-repeat;
+}
+
+div#content-images-cell div#slide-holder div#slide-nav-wrap p#slide-nav a:visited{
+text-decoration:none;
+color: #fff;
+}
+
+div#content-images-cell div#slide-holder div#slide-nav-wrap p#slide-nav  a.on {
+background-position : 0 -24px;
+}
+div#content-images-cell div#slide-holder div#slide-nav-wrap p#slide-nav a {
+background-image : url(../img/layout/silde-nav2.png);
+}
+ 	

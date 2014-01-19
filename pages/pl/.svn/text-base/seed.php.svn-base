@@ -1,0 +1,41 @@
+﻿<div id="sub-header">
+	<h2>Sadzonki</h2>
+	<br>
+    <p>
+		Firma Doran <strong>posiada własne plantacje</strong> mateczne Miskanta Olbrzymiego, z których sadzonki przeznaczone są głównie <strong>na sprzedaż</strong>.
+	</p>
+	<br><br>
+    <p class="second" ><strong>Przyjmujemy</strong> już <strong>zamówienia</strong> na sadzonki dostępne w <strong>sezonie wiosennym 2012</strong>. Zakładana dostępność sadzonek: <strong>ok 10 000 000 szt</strong>. <br><br></p>
+</div>
+<!-- //#sub-header -->
+
+<div id="content">
+	<div id="main-content">
+    	
+		<p>
+		</p>
+		<p><strong>Oferujemy wysokiej klasy sadzonki za bardzo dobrą cenę !!</strong></p>
+		
+		<p>
+			Zainteresowanych serdecznie zapraszamy do wypełnienia formularza zapytania ofertowego w dziale <strong><a href="oferta.html">Oferta</a></strong>.
+		</p>
+		
+        <p>tutaj można dać małą galerie ze zdjęciami sadzonek, macie chyba 4 na swojej starej stronie - będą w sam raz , w galerii oczywiscie mogą się powtórzyć  </p> 
+		
+    </div>
+    <!-- //#main-content -->
+    <div id="sidebar">
+    	<h4>Informacje</h4>
+        <p>Mauris eu mauris magna, nec tincidunt diam. Vivamus eget lacus lorem, in volutpat lorem. Vivamus luctus facilisis sapien ac mattis.</p>
+        <h4>Skontaktuj się z nami!</h4>
+        <p>Vestibulum quis turpis eget libero rutrum cursus. Aliquam erat volutpat. Nulla sit amet orci et massa iaculis ultrices.</p>
+        <p><strong>Osoba do kontaktu:</strong> Jan kowalski<br /><strong>Tel.:</strong> (+48) 052 388 00 20</strong><br /><strong>Email:</strong> <a href="#">info@doran.info.pl</a></p>
+        <h4></h4>
+        <ul>
+        	<li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- //#sidebar -->
+</div>
+<!-- //#content -->
