@@ -27,7 +27,7 @@
 <div id="body">
 	<div id="main-content">
 		<ul id="services">
-			<li><img src="img/icons/info.png" alt="About Us">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/info.png" alt="About Us">
 				<h3>About Us</h3>
 				<p>
 					Agricultural holding run by Andrzej Rogulski is one the business
@@ -36,11 +36,11 @@
 					in Poland as well as all around the world ...
 				
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs"><strong>read
+					<a href="<?php echo "$root_dir/$lang/aboutUs"?>"><strong>read
 						more...</strong></a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/plant.png"
 				alt="Miscanthus Giganteus">
 				<h3>Miscanthus Giganteus</h3>
 				<p>
@@ -50,11 +50,11 @@
 					<strong>impressive grass</strong> consisting...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=miskant"><strong>read
+					<a href="<?php echo "$root_dir/$lang/miskant"?>"><strong>read
 						more...</strong></a>
 				</p>
 			</li>
-			<li><img src="img/icons/special_offer2.png"
+			<li><img src="<?php echo "$root_dir"?>/img/icons/special_offer2.png"
 				alt="Offer">
 				<h3>Offer</h3>
 				<p>Apart from <strong>root cuttings</strong> of Miscanthus Giaganteus the company
@@ -62,52 +62,52 @@
 					miscanthus plantations,services of seedlings aquisition and
 					production from your plantation...</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=offer"><strong>read
+					<a href="<?php echo "$root_dir/$lang/offer"?>"><strong>read
 						more...</strong></a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/imagesS.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/imagesS.png"
 				alt="Gallery">
 				<h3>Gallery</h3>
 				<div id="small-gallery">
 					<ul>
-						<li><a href="img/gallery/big/1.jpg" title="One-year plantation">
-								<img src="img/gallery/small/1.jpg" width="80" height="80"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/1.jpg" title="One-year plantation">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/1.jpg" width="80" height="80"
 								alt="One-year plantation" />
-						</a> <a href="img/gallery/big/4.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/4.jpg"
 							title="One-year plantation part.2"> <img
-								src="img/gallery/small/4.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/4.jpg" width="80" height="80"
 								alt="One-year plantation part.2" />
-						</a> <a href="img/gallery/big/14.jpg" title="One-year seedlings">
-								<img src="img/gallery/small/14.jpg" width="80" height="80"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/14.jpg" title="One-year seedlings">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/14.jpg" width="80" height="80"
 								alt="One-year seedlings" />
-						</a> <a href="img/gallery/big/15.jpg" title="One-year seedlings part.2">
-								<img src="img/gallery/small/15.jpg" width="80" height="80"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/15.jpg" title="One-year seedlings part.2">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/15.jpg" width="80" height="80"
 								alt="One-year seedlings part.2" />
 						</a>
 						</li>
-						<li><a href="img/gallery/big/22.jpg"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/22.jpg"
 							title="Three-year plantation"> <img
-								src="img/gallery/small/22.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/22.jpg" width="80" height="80"
 								alt="Three-year plantation" />
-						</a> <a href="img/gallery/big/31.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/31.jpg"
 							title="Three-year plantation part.2"> <img
-								src="img/gallery/small/31.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/31.jpg" width="80" height="80"
 								alt="Three-year plantation part.2" />
-						</a> <a href="img/gallery/big/24.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/24.jpg"
 							title="Three-year plantation part.3"> <img
-								src="img/gallery/small/24.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/24.jpg" width="80" height="80"
 								alt="Three-year plantation part.3" />
-						</a><a href="img/gallery/big/29.jpg"
+						</a><a href="<?php echo "$root_dir"?>/img/gallery/big/29.jpg"
 							title="Three-year plantation part.4"> <img
-								src="img/gallery/small/29.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/29.jpg" width="80" height="80"
 								alt="Three-year plantation part.4" />
 						</a>
 						</li>
 					</ul>
 				</div>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=gallery"><strong>more
+					<a href="<?php echo "$root_dir/$lang/gallery"?>"><strong>more
 						pictures...</strong></a>
 				</p>
 			</li>

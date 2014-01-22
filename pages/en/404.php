@@ -2,7 +2,7 @@
 	<div id="sub-header">
 		<h1>Błąd 404 !</h1>
 		<p class="after-header">
-			Unfortunately, the webpage was not found. <a href="index.php">Click here to return to the homepage.</a>
+			Unfortunately, the webpage was not found. <a href="<?php echo "$root_dir/$lang/main"?>">Click here to return to the homepage.</a>
 		</p>
 	</div>
 	<!-- //#sub-header -->

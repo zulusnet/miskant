@@ -36,14 +36,19 @@
 
 <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
+
+<!-- If you work on localhost (xampp server), set the $root_dir to "/miskant" if not set $root_dir to "" ->
+<?php 
+$root_dir="";
+?>
 <!-- CSS: implied media=all -->
 <!-- CSS concatenated and minified via ant build script-->
-<link rel="stylesheet" href="css/slideshow.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/gallery.css">
-<link rel="stylesheet" href="css/jquery.lightbox-0.5.css">
-<link rel="stylesheet" href="css/googleMaps.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/slideshow.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/style.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/main.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/gallery.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/jquery.lightbox-0.5.css">
+<link rel="stylesheet" href="<?php echo "$root_dir" ?>/css/googleMaps.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans'
 	rel='stylesheet' type='text/css'>
 <!-- end CSS-->
@@ -97,9 +102,9 @@ $zainstalowane = array(
 </script>
 <?php
 if(isset($_GET['page']) && ($_GET['page'] == 'gallery'))
-	echo "<script type=\"text/javascript\" src=\"js/mylibs/gallery.map.js\"></script>";
+	echo "<script type=\"text/javascript\" src=\"$root_dir/js/mylibs/gallery.map.js\"></script>";
 elseif(isset($_GET['page']) && ($_GET['page'] == 'contact'))
-echo "<script type=\"text/javascript\" src=\"js/mylibs/contact.map.js\"></script>";
+echo "<script type=\"text/javascript\" src=\"$root_dir/js/mylibs/contact.map.js\"></script>";
 ?>
 
 
@@ -212,6 +217,7 @@ elseif(isset($_GET['page']) && ($_GET['page'] == 'contact')) echo " onload=\"con
 			elseif($lang == 'de') include "pages/de/404.php";
 			elseif($lang == 'ru') include "pages/ru/404.php";
 		}
+		
 		?>
 		</div>
 		<!-- //#content -->
@@ -236,43 +242,43 @@ elseif(isset($_GET['page']) && ($_GET['page'] == 'contact')) echo " onload=\"con
 
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
 	<script
-		src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>
 		window.jQuery
 				|| document
-						.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>');
+						.write('<script src="<?php echo $root_dir?>/js/libs/jquery-1.6.2.min.js"><\/script>');
 	</script>
 
 
 	<!-- scripts concatenated and minified via ant build script <script defer src="js/script.js"></script> -->
 
-	<script defer src="js/plugins.js"></script>
+	<script defer src="<?php echo $root_dir?>/js/plugins.js"></script>
 
 	<!-- end scripts-->
 
 	<!--  jQuery scripts -->
-	<script type="text/javascript" src="js/libs/jquery.js"></script>
-	<script type="text/javascript" src="js/libs/jquery.lightbox-0.5.js"></script>
+	<script type="text/javascript" src="<?php echo $root_dir?>/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="<?php echo $root_dir?>/js/libs/jquery.lightbox-0.5.js"></script>
 
 	<!--  Other user scripts -->
-	<script type="text/javascript" src="js/mylibs/jquery.validate.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="<?php echo $root_dir?>/js/mylibs/jquery.validate.js"></script>
+	<script type="text/javascript" src="<?php echo $root_dir?>/js/script.js"></script>
 	<?php
 	if($lang == 'pl'){
-		echo '<script type="text/javascript"
-		src="js/mylibs/localization/messages_pl.js"></script>';
+		echo "<script type=\"text/javascript\"
+		src=\"$root_dir/js/mylibs/localization/messages_pl.js\"></script>";
 	}
 	elseif($lang == 'en'){
-		echo '<script type="text/javascript"
-		src="js/mylibs/localization/messages_en.js"></script>';
+		echo "<script type=\"text/javascript\"
+		src=\"$root_dir/js/mylibs/localization/messages_en.js\"></script>";
 	}
 	elseif($lang == 'de'){
-		echo '<script type="text/javascript"
-		src="js/mylibs/localization/messages_de.js"></script>';
+		echo "<script type=\"text/javascript\"
+		src=\"$root_dir/js/mylibs/localization/messages_de.js\"></script>";
 	}
 	elseif($lang == 'ru'){
-		echo '<script type="text/javascript"
-		src="js/mylibs/localization/messages_ru.js"></script>';
+		echo "<script type=\"text/javascript\"
+		src=\"$root_dir/js/mylibs/localization/messages_ru.js\"></script>";
 	}
 	?>
 

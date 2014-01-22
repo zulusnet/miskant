@@ -6,7 +6,7 @@ function contactInit(lang) {
 		mapTypeId : google.maps.MapTypeId.ROADMAP
 	};
 	var corp = new google.maps.LatLng(53.457323, 17.543008);
-	var doranImage = 'img/icons/gm_pin_20.png';
+	var doranImage = '/img/icons/gm_pin_20.png';
 	var contactMap = new google.maps.Map(
 			document.getElementById("contact_map"), myOptions);
 

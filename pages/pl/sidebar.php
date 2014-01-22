@@ -6,7 +6,7 @@
 	założeniem pilotażowej plantacji Miskanta olbrzymiego, dla <strong>ukraińskiej
 	Grupy KSG Agro S.A.</strong><br>
 	Więcej informacji na stronie <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=projects">Realizacje</a>.</strong>
+		href="<?php echo "$root_dir/projects" ?>">Realizacje</a>.</strong>
 </p>
 <p>
 	<strong>04.2013</strong><br> Rozpoczęliśmy już przyjmowanie zamówień na sadzonki
@@ -16,9 +16,9 @@
 <h4>Skontaktuj się z nami!</h4>
 <p>
 	Zainteresowanych zapraszamy do wypełnienia formularza <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer#quotation">zapytania
+		href="<?php echo "$root_dir/offer" ?>#quotation">zapytania
 			ofertowego </a> </strong> na stronie <a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer">Oferta</a>
+		href="<?php echo "$root_dir/offer" ?>">Oferta</a>
 	oraz do bezpośredniego kontaktu:
 </p>
 <p>

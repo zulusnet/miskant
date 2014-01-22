@@ -60,7 +60,7 @@
 		</p>
 
 		<ul id="services">
-			<li><img src="img/icons/weather.png" alt="Climatic Conditions">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/weather.png" alt="Climatic Conditions">
 				<h3>Climatic Conditions:</h3>
 				<p>
 					Miscanthus giganteus <strong>has no particularly high agronomic
@@ -69,11 +69,11 @@
 					and even Class VI...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=climate"><strong>read
+					<a href="<?php echo "$root_dir/$lang/climate"?>"><strong>read
 							more ... </strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png" alt="Cultivation">
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/plant.png" alt="Cultivation">
 				<h3>Cultivation</h3>
 				<p>
 					Miscanthus can be grown successfully on soils of the lower class (V
@@ -81,12 +81,12 @@
 					subsequent years. <strong>The exception to this rule is if</strong> ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=cultivation"><strong>read
+					<a href="<?php echo "$root_dir/$lang/cultivation"?>"><strong>read
 							more ...</strong> </a>
 				</p>
 			</li>
 			<li>
-			<img src="img/icons/recycle.png" alt="Purpose">
+			<img src="<?php echo "$root_dir"?>/img/icons/recycle.png" alt="Purpose">
 				<h3>Purpose</h3>
 				<p>
 					Because of the high efficiency (<strong>an average of about 20 tons
@@ -94,7 +94,7 @@
 					main and most widespread use of Miscanthus giganteus, or rather ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=destiny"><strong>read
+					<a href="<?php echo "$root_dir/$lang/destiny"?>"><strong>read
 							more ... </strong> </a>
 				</p>
 			</li>

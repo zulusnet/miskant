@@ -18,27 +18,27 @@ var slider = {
 		slider.data = [ {
 			"id" : "slide-img-1",
 			"desc" : "Jednoroczna sadzonka <br> One-year seedling",
-			"url" : "img/layout/slides/1.jpg"
+			"url" : "/img/layout/slides/1.jpg"
 		}, {
 			"id" : "slide-img-2",
 			"desc" : "3-letnia plantacja miskanta <br> Three-year plantation",
-			"url" : "img/layout/slides/2.jpg"
+			"url" : "/img/layout/slides/2.jpg"
 		}, {
 			"id" : "slide-img-3",
 			"desc" : "Żniwa <br> Harvest",
-			"url" : "img/layout/slides/3.jpg"
+			"url" : "/img/layout/slides/3.jpg"
 		}, {
 			"id" : "slide-img-4",
 			"desc" : "Żniwa część 2 <br> Harvest part 2",
-			"url" : "img/layout/slides/4.jpg"
+			"url" : "/img/layout/slides/4.jpg"
 		}, {
 			"id" : "slide-img-5",
 			"desc" : "Żniwa część 3 <br> Harvest part 3",
-			"url" : "img/layout/slides/5.jpg"
+			"url" : "/img/layout/slides/5.jpg"
 		}, {
 			"id" : "slide-img-6",
 			"desc" : "Jednoroczna sadzonka część 2 <br> One-year seedling part 2",
-			"url" : "img/layout/slides/6.jpg"
+			"url" : "/img/layout/slides/6.jpg"
 		} ];
 
 		var d = slider.data;

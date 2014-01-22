@@ -47,17 +47,17 @@
 			Trockenmasse/ha, der Heizwert variiert zwischen 14 und 17 MJ/kg.</p>
 
 		<ul id="services">
-			<li><img src="img/icons/weather.png" alt="Klimatische Anforderungen">
+			<li><img src="<?php echo "$root_dir" ?>/img/icons/weather.png" alt="Klimatische Anforderungen">
 				<h3>Klimatische Anforderungen</h3>
 				<p>Der Miscanthus X Giganteus hat keine hohen Landwirtschaftlichen
 					Anforderungen (Boden,Düngung, Anbau). Die Plantagen, können
 					erfolgreich auf Böden der IV, V sogar der VI Klasse...</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=climate"><strong>mehr
+					<a href="<?php echo "$root_dir/$lang/climate" ?>"><strong>mehr
 							lesen... </strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png" alt="Anbau">
+			<li class="last-row-item"><img src="<?php echo "$root_dir" ?>/img/icons/plant.png" alt="Anbau">
 				<h3>Anbau</h3>
 				<p>
 					Miscanthus kann erfolgreich auf Böden der Unteren Klasse (V und VI)
@@ -66,18 +66,18 @@
 					ist...</strong>
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=cultivation"><strong>mehr
+					<a href="<?php echo "$root_dir/$lang/cultivation" ?>"><strong>mehr
 							lesen...</strong> </a>
 				</p>
 			</li>
-			<li><img src="img/icons/recycle.png" alt="Anwendung">
+			<li><img src="<?php echo "$root_dir" ?>/img/icons/recycle.png" alt="Anwendung">
 				<h3>Anwendung</h3>
 				<p>Durch hocher Effizienz (ca. 20 T Biostoff aus 1 Ha, bei ca.20 %
 					Feutichkeit ) das Storh aus den Miscanthus X Giganteus ist am moisten
 					bei breit verstandene Energiezielle angewendet. Mit Erfolg kann man
 					die Biomasse aus den Miscanthus X Giganteus...</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=destiny"><strong>mehr
+					<a href="<?php echo "$root_dir/$lang/destiny" ?>"><strong>mehr
 							lesen...</strong> </a>
 				</p>
 			</li>

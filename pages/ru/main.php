@@ -29,7 +29,7 @@
 <div id="body">
 	<div id="main-content">
 		<ul id="services">
-			<li><img src="img/icons/info.png" alt="О НАС">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/info.png" alt="О НАС">
 				<h3>О НАС</h3>
 				<p>
 					Хозяйство, которое ведет Андрей Рогульский, является одним из
@@ -38,11 +38,11 @@
 						энергией</strong> в Польше и во всем мире...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/aboutUs"?>"><strong>читай
 						дальше...</strong></a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/plant.png"
 				alt="МИСКАНТУС ГИГАНТСКИЙ">
 				<h3>МИСКАНТУС ГИГАНТСКИЙ</h3>
 				<p>
@@ -52,11 +52,11 @@
 						злак</strong>, которая состоит из...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=miskant"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/miskant"?>"><strong>читай
 						дальше...</strong></a>
 				</p>
 			</li>
-			<li><img src="img/icons/special_offer2.png"
+			<li><img src="<?php echo "$root_dir"?>/img/icons/special_offer2.png"
 				alt="ПРЕДЛОЖЕНИЕ">
 				<h3>ПРЕДЛОЖЕНИЕ</h3>
 				<p>
@@ -66,52 +66,52 @@
 					и производства саженцев из Вашей плантации и...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=offer"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/offer"?>"><strong>читай
 						дальше</strong></a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/imagesS.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/imagesS.png"
 				alt="ФОТОГАЛЕРЕЯ">
 				<h3>ФОТОГАЛЕРЕЯ</h3>
 				<div id="small-gallery">
 					<ul>
-						<li><a href="img/gallery/big/1.jpg" title="Jednoroczna plantacja">
-								<img src="img/gallery/small/1.jpg" width="80" height="80"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/1.jpg" title="Jednoroczna plantacja">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/1.jpg" width="80" height="80"
 								alt="Jednoroczna plantacja" />
-						</a> <a href="img/gallery/big/4.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/4.jpg"
 							title="Jednoroczna plantacja cz.2"> <img
-								src="img/gallery/small/4.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/4.jpg" width="80" height="80"
 								alt="Jednoroczna plantacja cz.2" />
-						</a> <a href="img/gallery/big/14.jpg" title="Однолетние саженцы">
-								<img src="img/gallery/small/14.jpg" width="80" height="80"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/14.jpg" title="Однолетние саженцы">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/14.jpg" width="80" height="80"
 								alt="Однолетние саженцы" />
-						</a> <a href="img/gallery/big/15.jpg" title="Однолетние саженцы часть 2">
-								<img src="img/gallery/small/15.jpg" width="80" height="80"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/15.jpg" title="Однолетние саженцы часть 2">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/15.jpg" width="80" height="80"
 								alt="Однолетние саженцы часть 2" />
 						</a>
 						</li>
-						<li><a href="img/gallery/big/22.jpg"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/22.jpg"
 							title="3-летний 20-га плантаций, ловкость 95%"> <img
-								src="img/gallery/small/22.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/22.jpg" width="80" height="80"
 								alt="3-летний 20-га плантаций, ловкость 95%" />
-						</a> <a href="img/gallery/big/31.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/31.jpg"
 							title="3-летний 20-га плантаций, ловкость 95% часть.2"> <img
-								src="img/gallery/small/31.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/31.jpg" width="80" height="80"
 								alt="3-летний 20-га плантаций, ловкость 95% часть.2" />
-						</a> <a href="img/gallery/big/24.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/24.jpg"
 							title="3-летний 20-га плантаций, ловкость 95% часть.3"> <img
-								src="img/gallery/small/24.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/24.jpg" width="80" height="80"
 								alt="3-летний 20-га плантаций, ловкость 95% часть.3" />
-						</a><a href="img/gallery/big/29.jpg"
+						</a><a href="<?php echo "$root_dir"?>/img/gallery/big/29.jpg"
 							title="3-летний 20-га плантаций, ловкость 95% часть.4"> <img
-								src="img/gallery/small/29.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/29.jpg" width="80" height="80"
 								alt="3-летний 20-га плантаций, ловкость 95% часть.4" />
 						</a>
 						</li>
 					</ul>
 				</div>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=gallery"><strong>больше фотографий...</strong></a>
+					<a href="<?php echo "$root_dir/$lang/gallery"?>"><strong>больше фотографий...</strong></a>
 				</p>
 			</li>
 		</ul>

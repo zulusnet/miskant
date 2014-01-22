@@ -59,7 +59,7 @@
 		</p>
 
 		<ul id="services">
-			<li><img src="img/icons/weather.png" alt="КЛИМАТИЧЕСКИЕ УСЛОВИЯ">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/weather.png" alt="КЛИМАТИЧЕСКИЕ УСЛОВИЯ">
 				<h3>КЛИМАТИЧЕСКИЕ УСЛОВИЯ</h3>
 				<p>
 					У Мискантуса гигантского <strong>нет особенных агротехнических
@@ -68,11 +68,11 @@
 					класса ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=climate"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/climate"?>"><strong>читай
 							дальше ... </strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png" alt="ВЫРАЩИВАНИЕ">
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/plant.png" alt="ВЫРАЩИВАНИЕ">
 				<h3>ВЫРАЩИВАНИЕ</h3>
 				<p>
 					Мискантуса можно выращивать на почве низких классов (V и VI), но
@@ -80,17 +80,17 @@
 						является ситуация, в которой</strong> ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=cultivation"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/cultivation"?>"><strong>читай
 							дальше ...</strong> </a>
 				</p>
 			</li>
-			<li><img src="img/icons/recycle.png" alt="ПРЕДНАЗНАЧЕНИЕ">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/recycle.png" alt="ПРЕДНАЗНАЧЕНИЕ">
 				<h3>ПРЕДНАЗНАЧЕНИЕ</h3>
 				<p>По поводу высокой производительности (<strong>около 20 тон биомассы из 1
 					гектара</strong>, при влажности около 20%), основном и наиболее
 					распространенным предназначением Мискантуса гигантского, скорее ...</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=destiny"><strong>читай
+					<a href="<?php echo "$root_dir/$lang/destiny"?>"><strong>читай
 							дальше ... </strong> </a>
 				</p>
 			</li>

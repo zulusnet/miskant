@@ -5,7 +5,7 @@
 	<strong>In August 2013</strong> DORAN has successfully completed a
 	contract related to establishing a pilot plantation of Miscanthus
 	giganteus for the Ukrainian KSG Argo Group S.A. More information at <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=projects">Realizations</a>.</strong>
+		href="<?php echo "$root_dir/$lang/projects" ?>">Realizations</a>.</strong>
 </p>
 <p>
 	<strong>In April 2013</strong> we have already started taking orders for seedlings of
@@ -16,9 +16,9 @@
 <h4>Contact us!</h4>
 <p>
 	If you are interested, please fill in <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer#quotation">the
+		href="<?php echo "$root_dir/$lang/offer#quotation" ?>">the
 			inquiry form</a> </strong> on <a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer">our website</a>
+		href="<?php echo "$root_dir/$lang/offer" ?>">our Offer website</a>
 	or contact us directly:
 </p>
 <p>

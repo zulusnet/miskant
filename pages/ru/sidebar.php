@@ -5,7 +5,7 @@
 	реализацию контракта связанного с созданием ведущей плантации
 	Мискантуса Гигантского, для <strong>украинской Группы КСГ Агро А.О.
 	(KSG Agro S.A.).</strong><br> Более подробная информация в закладке <strong><a
-	href="index.php?lang=<?php echo $lang?>&amp;page=projects">Проекты</a>.</strong>
+	href="<?php echo "$root_dir/$lang/projects"?>">Проекты</a>.</strong>
 </p>
 <p>
 	<strong>04.2013</strong><br>Мы начали принимать заказы на саженцы
@@ -16,7 +16,7 @@
 
 <p>
 	Приглашаем заполнить формуляр <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer#quotation">запроса
+		href="<?php echo "$root_dir/$lang/offer#quotation"?>">запроса
 	</a> </strong> на странице Предложение и непосредственно связываться с
 	нами:
 </p>

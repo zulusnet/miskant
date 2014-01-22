@@ -4,7 +4,7 @@
  
 
 	<strong>08.2013</strong><br>Das DORAN Unternehmen hat erfolgreich einen Vertrag mit der Annahme einer Pilotplantage Riesen-Chinaschilf, für die <strong>ukrainische Gruppe KSG Agro SA  durgeführt</strong>.<br>
-	Für weitere Informationen, auf der Seite <strong><a href="index.php?lang=<?php echo $lang?>&amp;page=projects">Projekten</a>.</strong>
+	Für weitere Informationen, auf der Seite <strong><a href="<?php echo "$root_dir/$lang/projects"?>">Projekten</a>.</strong>
 </p>
 <p>
 	<strong>04.2013</strong><br> Wir haben bereits mit Aufträge für Sämlinge des Riese-Chinaschlifs, <strong>für die Frühjahrssaison 2014</strong>, begonnen.
@@ -13,7 +13,7 @@
 <h4>Nehme mit uns Kontakt an!</h4>
 <p>
 	Bereitwillige  laden wir zum Ausfűhlung unserer Anfragefolmular an auf  <strong><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer#quotation">Seite Angebot</a></strong> und auch zum direkten Kontakt:
+		href="<?php echo "$root_dir/$lang/offer#quotation"?>">Seite Angebot</a></strong> und auch zum direkten Kontakt:
 </p>
 <p>
 	<strong>Person zum Kontakt:</strong> Michał Rogulski<br /> <strong>Handynummer:

@@ -2,7 +2,7 @@
 	<div id="sub-header">
 		<h1>Error 404 !</h1>
 		<p class="after-header">
-			Leider die gezeigte Seite wurde nicht gefunden. <a href="index.php">Click
+			Leider die gezeigte Seite wurde nicht gefunden. <a href="<?php echo "$root_dir/$lang/main" ?>">Click
 				hier,um auf Hauptseite zurűckzukommen</a>
 		</p>
 	</div>

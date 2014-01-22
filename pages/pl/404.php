@@ -2,7 +2,7 @@
 	<div id="sub-header">
 		<h1>Błąd 404 !</h1>
 		<p class="after-header">
-			Niestety podana strona nie została znaleziona. <a href="index.php">Kliknij
+			Niestety podana strona nie została znaleziona. <a href="<?php echo "$root_dir" ?>">Kliknij
 				tutaj, aby wrócić na stronę główną serwisu.</a>
 		</p>
 	</div>

@@ -62,7 +62,7 @@
 		</p>
 
 		<ul id="services">
-			<li><img src="img/icons/weather.png" alt="Warunki klimatyczne">
+			<li><img src="<?php echo $root_dir?>/img/icons/weather.png" alt="Warunki klimatyczne">
 				<h3>Warunki klimatyczne</h3>
 				<p>
 					Miskant olbrzymi <strong>nie ma szczególnie wysokich wymagań</strong>
@@ -71,11 +71,11 @@
 					a nawet klasy VI ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=climate"><strong>czytaj
+					<a href="<?php echo "$root_dir/climate"?>"><strong>czytaj
 							dalej ... </strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png" alt="Uprawa">
+			<li class="last-row-item"><img src="<?php echo $root_dir?>/img/icons/plant.png" alt="Uprawa">
 				<h3>Uprawa</h3>
 				<p>
 					Miskanta z powodzeniem uprawiać można na glebach klas niższych (V i
@@ -84,11 +84,11 @@
 						gdy ...</strong>
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=cultivation"><strong>czytaj
+					<a href="<?php echo "$root_dir/cultivation"?>"><strong>czytaj
 							dalej ...</strong> </a>
 				</p>
 			</li>
-			<li><img src="img/icons/recycle.png" alt="Przeznaczenie">
+			<li><img src="<?php echo $root_dir?>/img/icons/recycle.png" alt="Przeznaczenie">
 				<h3>Przeznaczenie</h3>
 				<p>
 					Z powodu wysokiej wydajności (<strong>średnio ok. 20 ton biomasy z
@@ -96,7 +96,7 @@
 					rozpowszechnionym zastosowaniem Miskanta olbrzymiego, a raczej ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=destiny"><strong>czytaj
+					<a href="<?php echo "$root_dir/destiny"?>"><strong>czytaj
 							dalej ... </strong> </a>
 				</p>
 			</li>

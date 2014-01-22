@@ -1,25 +1,25 @@
 <ul id="footer-nav">
 	<li class="first-item" rel="main"><a
-		href="index.php?lang=<?php echo $lang?>">Strona główna</a>
+		href="<?php echo "$root_dir/$lang/main"?>">Strona główna</a>
 	</li>
 	<li rel="aboutUs"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs">O nas</a>
+		href="<?php echo "$root_dir/$lang/aboutUs"?>">O nas</a>
 	</li>
 	<li rel="miskant"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=miskant">Miskant
+		href="<?php echo "$root_dir/$lang/miskant"?>">Miskant
 			Olbrzymi</a>
 	</li>
 	<li rel="projects"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=projects">Realizacje</a>
+		href="<?php echo "$root_dir/$lang/projects"?>">Realizacje</a>
 	</li>
 	<li rel="offer"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer">Oferta</a>
+		href="<?php echo "$root_dir/$lang/offer"?>">Oferta</a>
 	</li>
 	<li rel="gallery"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=gallery">Galeria</a>
+		href="<?php echo "$root_dir/$lang/gallery"?>">Galeria</a>
 	</li>
 	<li rel="contact"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=contact">Kontakt</a>
+		href="<?php echo "$root_dir/$lang/contact"?>">Kontakt</a>
 	</li>
 </ul>
 <p>

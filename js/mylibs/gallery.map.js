@@ -8,7 +8,7 @@ function galleryInit(lang) {
 	var plant1 = new google.maps.LatLng(53.601877, 17.652225);
 	var plant2 = new google.maps.LatLng(53.423855, 17.399483);
 	var corp = new google.maps.LatLng(53.457323, 17.543008);
-	var doranImage = 'img/icons/gm_pin_20.png';
+	var doranImage = '/img/icons/gm_pin_20.png';
 	var galleryMap = new google.maps.Map(
 			document.getElementById("gallery_map"), myOptions);
 

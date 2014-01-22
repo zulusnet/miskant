@@ -1,24 +1,24 @@
 <ul id="footer-nav">
 	<li class="first-item" rel="main"><a
-		href="index.php?lang=<?php echo $lang?>">Home</a>
+		href="<?php echo "$root_dir/$lang/main"?>">Home</a>
 	</li>
 	<li rel="aboutUs"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs">About Us</a>
+		href="<?php echo "$root_dir/$lang/aboutUs"?>">About Us</a>
 	</li>
 	<li rel="miskant"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=miskant">Miscanthus
+		href="<?php echo "$root_dir/$lang/miskant"?>">Miscanthus
 			Giganteus</a>
 	</li>
 	<li rel="projects"><a
-		href="index.php?lang=<?php echo $lang?>&page=projects">Projects</a></li>
+		href="<?php echo "$root_dir/$lang/projects"?>">Projects</a></li>
 	<li rel="offer"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer">Offer</a>
+		href="<?php echo "$root_dir/$lang/offer"?>">Offer</a>
 	</li>
 	<li rel="gallery"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=gallery">Gallery</a>
+		href="<?php echo "$root_dir/$lang/gallery"?>">Gallery</a>
 	</li>
 	<li rel="contact"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=contact">Contact</a>
+		href="<?php echo "$root_dir/$lang/contact"?>">Contact</a>
 	</li>
 </ul>
 <p>

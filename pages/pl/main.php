@@ -29,7 +29,7 @@
 <div id="body">
 	<div id="main-content">
 		<ul id="services">
-			<li><img src="img/icons/info.png" alt="O Nas">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/info.png" alt="O Nas">
 				<h3>O nas</h3>
 				<p>
 					Gospodarstwo rolne prowadzone przez Andrzeja Rogulskiego, jest
@@ -39,11 +39,11 @@
 					świecie...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs"><strong>czytaj
+					<a href="<?php echo "$root_dir/aboutUs"?>"><strong>czytaj
 							dalej...</strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/plant.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/plant.png"
 				alt="Miskant Olbrzymi">
 				<h3>Miskant Olbrzymi</h3>
 				<p>
@@ -53,11 +53,11 @@
 						trawą kępową</strong> składającą się z...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=miskant"><strong>czytaj
+					<a href="<?php echo "$root_dir/miskant"?>"><strong>czytaj
 							dalej...</strong> </a>
 				</p>
 			</li>
-			<li><img src="img/icons/special_offer2.png" alt="Oferta">
+			<li><img src="<?php echo "$root_dir"?>/img/icons/special_offer2.png" alt="Oferta">
 				<h3>Oferta</h3>
 				<p>
 					Poza <strong>sadzonkami korzeniowymi</strong> Miskanta olbrzymiego,
@@ -66,53 +66,53 @@
 					pozyskania i produkcji sadzonek z Państwa plantacji oraz ...
 				</p>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=offer"><strong>czytaj
+					<a href="<?php echo "$root_dir/offer"?>"><strong>czytaj
 							dalej...</strong> </a>
 				</p>
 			</li>
-			<li class="last-row-item"><img src="img/icons/imagesS.png"
+			<li class="last-row-item"><img src="<?php echo "$root_dir"?>/img/icons/imagesS.png"
 				alt="Galeria">
 				<h3>Galeria</h3>
 				<div id="small-gallery">
 					<ul>
-						<li><a href="img/gallery/big/1.jpg" title="Jednoroczna plantacja">
-								<img src="img/gallery/small/1.jpg" width="80" height="80"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/1.jpg" title="Jednoroczna plantacja">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/1.jpg" width="80" height="80"
 								alt="Jednoroczna plantacja" />
-						</a> <a href="img/gallery/big/4.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/4.jpg"
 							title="Jednoroczna plantacja cz.2"> <img
-								src="img/gallery/small/4.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/4.jpg" width="80" height="80"
 								alt="Jednoroczna plantacja cz.2" />
-						</a> <a href="img/gallery/big/14.jpg" title="Jednoroczne sadzonki">
-								<img src="img/gallery/small/14.jpg" width="80" height="80"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/14.jpg" title="Jednoroczne sadzonki">
+								<img src="<?php echo "$root_dir"?>/img/gallery/small/14.jpg" width="80" height="80"
 								alt="Jednoroczne sadzonki" />
-						</a> <a href="img/gallery/big/15.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/15.jpg"
 							title="Jednoroczne sadzonki cz.2"> <img
-								src="img/gallery/small/15.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/15.jpg" width="80" height="80"
 								alt="Jednoroczne sadzonki cz.2" />
 						</a>
 						</li>
-						<li><a href="img/gallery/big/22.jpg"
+						<li><a href="<?php echo "$root_dir"?>/img/gallery/big/22.jpg"
 							title="3-letnia 20-ha plantacja, udatność 95%"> <img
-								src="img/gallery/small/22.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/22.jpg" width="80" height="80"
 								alt="3-letnia 20-ha plantacja, udatność 95%" />
-						</a> <a href="img/gallery/big/31.jpg"
+						</a> <a href="<?php echo "$root_dir"?>/img/gallery/big/31.jpg"
 							title="3-letnia 20-ha plantacja, udatność 95% cz.2"> <img
-								src="img/gallery/small/31.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/31.jpg" width="80" height="80"
 								alt="3-letnia 20-ha plantacja, udatność 95% cz.2" />
 						</a> <a href="img/gallery/big/24.jpg"
 							title="3-letnia 20-ha plantacja, udatność 95% cz.3"> <img
-								src="img/gallery/small/24.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/24.jpg" width="80" height="80"
 								alt="3-letnia 20-ha plantacja, udatność 95% cz.3" />
 						</a><a href="img/gallery/big/29.jpg"
 							title="3-letnia 20-ha plantacja, udatność 95% cz.4"> <img
-								src="img/gallery/small/29.jpg" width="80" height="80"
+								src="<?php echo "$root_dir"?>/img/gallery/small/29.jpg" width="80" height="80"
 								alt="3-letnia 20-ha plantacja, udatność 95% cz.4" />
 						</a>
 						</li>
 					</ul>
 				</div>
 				<p class="continue">
-					<a href="index.php?lang=<?php echo $lang?>&amp;page=gallery"><strong>więcej
+					<a href="<?php echo "$root_dir/gallery"?>"><strong>więcej
 							zdjęć...</strong> </a>
 				</p>
 			</li>

@@ -1,24 +1,24 @@
 <ul id="footer-nav">
 	<li class="first-item" rel="main"><a
-		href="index.php?lang=<?php echo $lang?>">Hauptseite</a>
+		href="<?php echo "$root_dir/$lang/main" ?>">Hauptseite</a>
 	</li>
 	<li rel="aboutUs"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=aboutUs">Über uns</a>
+		href="<?php echo "$root_dir/$lang/aboutUs" ?>">Über uns</a>
 	</li>
 	<li rel="miskant"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=miskant">Miscanthus X
+		href="<?php echo "$root_dir/$lang/miskant" ?>">Miscanthus X
 			Giganteus</a>
 	</li>
 	<li rel="projects"><a
-		href="index.php?lang=<?php echo $lang?>&page=projects">Projekte</a></li>
+		href="<?php echo "$root_dir/$lang/projects" ?>">Projekte</a></li>
 	<li rel="offer"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=offer">Angebot</a>
+		href="<?php echo "$root_dir/$lang/offer" ?>">Angebot</a>
 	</li>
 	<li rel="gallery"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=gallery">Galerie</a>
+		href="<?php echo "$root_dir/$lang/gallery" ?>">Galerie</a>
 	</li>
 	<li rel="contact"><a
-		href="index.php?lang=<?php echo $lang?>&amp;page=contact">Kontakt</a>
+		href="<?php echo "$root_dir/$lang/contact" ?>">Kontakt</a>
 	</li>
 </ul>
 <p>
