@@ -22,6 +22,9 @@
 	<li rel="contact"><a
 		href="<?php echo "$root_dir/$lang/contact"?>">Контакт</a>
 	</li>
+	<li rel="cookies-policy"><a
+		href="<?php echo "$root_dir/pl/cookies-policy"?>">Cookies Policy</a>
+	</li>
 </ul>
 <p>
 	Copyright &copy; DORAN | 2009 - 2013 Все права защищены | Перевод: <a

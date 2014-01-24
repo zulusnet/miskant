@@ -211,6 +211,12 @@ elseif(isset($_GET['page']) && ($_GET['page'] == 'contact')) echo " onload=\"con
 				elseif($lang == 'de') include "pages/de/contact.php";
 				elseif($lang == 'ru') include "pages/ru/contact.php";
 			}
+			elseif($_GET['page'] == 'cookies-policy'){
+				if($lang == 'pl')	include "pages/pl/cookies-policy.php";
+				elseif($lang == 'en') include "pages/pl/cookies-policy.php";
+				elseif($lang == 'de') include "pages/pl/cookies-policy.php";
+				elseif($lang == 'ru') include "pages/pl/cookies-policy.php";
+			}
 			else{
 			if($lang == 'pl')	include "pages/pl/404.php";
 			elseif($lang == 'en') include "pages/en/404.php";

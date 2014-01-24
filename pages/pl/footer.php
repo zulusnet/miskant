@@ -21,6 +21,9 @@
 	<li rel="contact"><a
 		href="<?php echo "$root_dir/$lang/contact"?>">Kontakt</a>
 	</li>
+	<li rel="cookies-policy"><a
+		href="<?php echo "$root_dir/$lang/cookies-policy"?>">Polityka cookies</a>
+	</li>
 </ul>
 <p>
 	Copyright &copy; DORAN | 2009 - 2013 Wszystkie prawa zastrzeżone |

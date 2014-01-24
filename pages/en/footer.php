@@ -17,8 +17,8 @@
 	<li rel="gallery"><a
 		href="<?php echo "$root_dir/$lang/gallery"?>">Gallery</a>
 	</li>
-	<li rel="contact"><a
-		href="<?php echo "$root_dir/$lang/contact"?>">Contact</a>
+	<li rel="cookies-policy"><a
+		href="<?php echo "$root_dir/pl/cookies-policy"?>">Cookies Policy</a>
 	</li>
 </ul>
 <p>
